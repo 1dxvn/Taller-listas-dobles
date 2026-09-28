@@ -1,28 +1,32 @@
 INITIAL_CARDS = [
     {
-        "question": "What is a doubly linked list?",
-        "answer": "A linear data structure where each node stores its data "
-        "and two pointers: one to the previous node and one to the next.",
+        "question": "¿Por qué se le dice 'bug' a un error informático?",
+        "answer": "En 1947, el equipo de Grace Hopper encontró una polilla real "
+        "atrapada dentro de un relé del Harvard Mark II. La pegaron en el "
+        "cuaderno de registro y escribieron 'primer caso real de un bug "
+        "encontrado'.",
     },
     {
-        "question": "What are the two pointers of a node called?",
-        "answer": "prev points to the previous node and next points to the "
-        "following node.",
+        "question": "¿Por qué el lenguaje Python se llama así?",
+        "answer": "Guido van Rossum era fanático del grupo cómico británico "
+        "Monty Python, así que nombró el lenguaje en su honor, no por la "
+        "serpiente.",
     },
     {
-        "question": "What is the cost of deleting a known node in a doubly "
-        "linked list?",
-        "answer": "O(1), because the node already knows its neighbors and "
-        "only their pointers must be reconnected.",
+        "question": "¿Qué significa O(1) en la notación Big O?",
+        "answer": "Tiempo constante. La operación realiza la misma cantidad de "
+        "trabajo sin importar qué tan grande crezca la estructura de datos.",
     },
     {
-        "question": "What is the advantage over a singly linked list?",
-        "answer": "You can traverse in both directions and delete a node "
-        "without searching for its predecessor.",
+        "question": "¿Quién es considerada la primera programadora?",
+        "answer": "Ada Lovelace, en 1843, escribió un algoritmo para la "
+        "Máquina Analítica de Charles Babbage para calcular los números de "
+        "Bernoulli.",
     },
     {
-        "question": "Which real-life features use this structure?",
-        "answer": "Browser history, music playlists, undo/redo stacks and "
-        "image galleries.",
+        "question": "¿Qué funciones de la vida real usan listas dobles?",
+        "answer": "El historial atrás/adelante del navegador, las listas de "
+        "reproducción, los editores con deshacer/rehacer, las galerías de "
+        "imágenes y la caché LRU de los sistemas operativos.",
     },
 ]
